@@ -8,14 +8,19 @@ body {
 }
 
 @font-face {
+  font-family: MarioUFont;
+  src: url(../assets/NSMBU.ttf);
+}
+
+@font-face {
   font-family: MarioFont;
   src: url(../assets/mariofont.otf);
 }
 
 h2 {
   font-family: MarioFont;
-    margin: 4rem 0 0rem;
-    color: rgba(0,239,255,1);
+  margin: 4rem 0 0rem;
+  color: rgba(0,239,255,1);
 }
 
 html:has(.profile-card-example) {
@@ -27,7 +32,7 @@ body:has(.profile-card-example) {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  font-family: open sans;
+  font-family: MarioUFont;
   color: #10214e;
 }
 
