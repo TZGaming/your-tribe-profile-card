@@ -2,9 +2,20 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: url("../assets/voyage.gif");
+  background-size: cover;
+}
+
 @font-face {
   font-family: MarioFont;
-  src: url(assets/mariofont.otf);
+  src: url(../assets/mariofont.otf);
+}
+
+h2 {
+  font-family: MarioFont;
+    margin: 4rem 0 0rem;
+    color: rgba(0,239,255,1);
 }
 
 html:has(.profile-card-example) {
@@ -31,7 +42,7 @@ article.profile-card-example {
   min-width: 20em;
   border-radius: 1rem;
   background: rgb(0, 136, 255);
-  background: linear-gradient(0deg, rgba(0,239,255,1) 40%, #4e54c8 100%);
+  background: linear-gradient(0deg, rgba(0,239,255,1) 40%, #982aff 100%);
   box-shadow: 0 0 20px 20px rgba(0,0,0,.1);
   transition: .25s;
 }
@@ -42,13 +53,6 @@ header.profile-card-example-header {
   justify-content: center;
   align-items: center;
   justify-content: flex-end;
-
-  /* Je kunt selectors nesten! */
-  h1 {
-    margin: 2rem 0 1rem;
-    color: rgba(0,239,255,1);
-  }
-
 }
 
 button.profile-card-example-button {
