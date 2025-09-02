@@ -5,6 +5,7 @@
 body {
   background-image: url("../assets/voyage.gif");
   background-size: cover;
+  font-family: MarioUFont;
 }
 
 @font-face {
