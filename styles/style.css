@@ -127,6 +127,7 @@ article.console_header {
 
 .hobbylist {
   margin-left: 15px;
+  font-size: 18px;
 }
 
 dl.hobbytitle {
@@ -177,13 +178,13 @@ dl.hobbytitle {
 
 .game-header-text {
   font-family: MarioFont;
-  color: rgba(0,239,255,1);
+  color: yellow;
   margin-top: 60px;
 }
 
 .console-header-text {
   font-family: MarioFont;
-  color: rgba(0,239,255,1);
+  color: rgb(255, 255, 255);
   margin-top: 0px;
 }
 

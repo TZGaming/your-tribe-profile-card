@@ -7,3 +7,8 @@
   /* Stap 3: Verander een class zodra iemand op die knop klikt */
   /*document.body.classList.toggle('is-expanded')
 })*/
+
+function play() {
+  var audio = document.getElementById("test");
+    audio.play();
+}
