@@ -18,12 +18,10 @@ function play() {
   image.addEventListener('click', () => {
     const originalSrc = image.getAttribute('data-original');
     const gifSrc = image.getAttribute('data-gif');
-    const duration = parseInt(image.getAttribute('data-duration'), 10); // in ms
+    const duration = parseInt(image.getAttribute('data-duration'), 10);
 
-    // Vervang door de GIF
     image.src = gifSrc;
 
-    // Zet terug na de duur van de GIF
     setTimeout(() => {
       image.src = originalSrc;
     }, duration);
