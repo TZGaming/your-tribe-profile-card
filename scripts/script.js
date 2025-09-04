@@ -8,9 +8,9 @@
   /*document.body.classList.toggle('is-expanded')
 })*/
 
-function play() {
-  var audio = document.getElementById("test");
-    audio.play();
+function play(audioId) {
+  var audio = document.getElementById(audioId);
+  audio.play();
 }
 
   const image = document.getElementById('Bananza_icn');

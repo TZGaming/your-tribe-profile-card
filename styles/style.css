@@ -208,6 +208,12 @@ dl.hobbytitle {
   align-items: center;
 }
 
+.discord {
+  color: #7289da;
+  font-weight: bold;
+}
+
+
 .game-text {
   font-family: bananza;
   color: yellow;

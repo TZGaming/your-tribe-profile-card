@@ -17,7 +17,7 @@
       <p class="hobbylist">- Muziek maken/bewerken</p>
       <p class="hobbylist">- Afspreken met vrienden</p>
       <p class="hobbylist">- Games modden/hacken</p>
-      <p class="hobbylist">- Online met mensen interacteren, zoals op Discord</p>
+      <p class="hobbylist">- Online met mensen interacteren, vooral op <span class="discord">Discord</span></p>
     </article>
 
     <article class="profile-card-example">
@@ -51,14 +51,15 @@
           width="220" height="220" 
           class="gaming_img" 
           value="PLAY" 
-          onclick="play()">
-        <audio id="test" src="./assets/snd/oh-banana-donkey-kong-bananza.mp3"></audio>
+          onclick="play('bananza')">
+          <audio id="bananza" src="./assets/snd/oh-banana-donkey-kong-bananza.mp3"></audio>
       </article>
 
       <article class="console_header">
         <h2 class="console-header-text">Favoriete console</h2>
         <br>
-        <img src="assets/Switch2.png" alt="" width="250" height="200">
+        <img src="assets/Switch2.png" alt="" width="250" height="200" value="PLAY" onclick="play('nsclick')">
+        <audio id="nsclick" src="./assets/snd/Nintendo_Switch_Click_Sound.mp3"></audio>
         <br>
         <img src="assets/NS2_text.png" alt="" width="200" height="200" class="NS2_text">
       </article>
