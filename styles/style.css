@@ -131,11 +131,11 @@ article.gaming_header {
   align-items: center;
   justify-content: center;
   max-width: 25em;
-  min-width: 15em;
+  min-width: 20em;
   border-radius: 2rem;
   background: rgb(41, 41, 41);
   text-align: center;
-  height: 320px;
+  height: auto;
   padding: 2rem;
   margin-top: 0px;
   order: 1;
@@ -212,7 +212,7 @@ dl.hobbytitle {
   font-family: bananza;
   color: yellow;
   margin: 0px;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
   font-size: 20px;
 }
 
@@ -227,7 +227,7 @@ dl.hobbytitle {
 .game-header-text {
   font-family: MarioFont;
   color: yellow;
-  margin-top: 50px;
+  margin-top: -10px;
 }
 
 .console-header-text {
