@@ -62,11 +62,6 @@ body {
   src: url(../assets/mariofont.otf);
 }
 
-@font-face {
-  font-family: bananza;
-  src: url(../assets/Bananza.otf);
-}
-
 h2 {
   font-family: MarioFont;
   margin: 4rem 0 0rem;
@@ -217,23 +212,6 @@ dl.hobbytitle {
 .discord {
   color: #7289da;
   font-weight: bold;
-}
-
-
-.game-text {
-  font-family: bananza;
-  color: yellow;
-  margin: 0px;
-  margin-bottom: 50px;
-  font-size: 20px;
-}
-
-.console-text {
-  font-family: bananza;
-  color: yellow;
-  margin: 0px;
-  margin-bottom: 60px;
-  font-size: 20px;
 }
 
 .game-header-text {
