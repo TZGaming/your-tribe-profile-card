@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 
+/*Container voor alle objecten in de grid*/
 .layout-container {
   display: flex;
   flex-direction: row;
@@ -31,6 +32,7 @@
   max-width: 400px;
 }
 
+/*Responsive design voor telefoon*/
 @media (max-width: 768px) {
   .layout-container {
     flex-direction: column;
@@ -49,6 +51,7 @@ body {
   background-size: cover;
 }
 
+/*Custom fonts*/
 @font-face {
   font-family: MarioUFont;
   src: url(../assets/NSMBU.ttf);
@@ -105,6 +108,7 @@ article.profile-card-example {
   transition: .25s;
 }
 
+/*Hobby grid config*/
 .hobby_container {
   float: left;
 }
@@ -124,6 +128,7 @@ article.hobbys {
   height: auto;
 }
 
+/*Game & Console grid*/
 article.gaming_header {
   position: relative ;
   display: flex;
@@ -196,6 +201,7 @@ dl.hobbytitle {
   border-radius: 1rem;
 }
 
+/*Foto config*/
 .gaming_img {
   border-radius: 2rem;
   background: rgb(41, 41, 41);
