@@ -1,17 +1,18 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="nl">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tom Zuidervaart - FDND Visitekaartje</title>
-    <link rel="stylesheet" href="styles/style.css">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
 <body>
   <div class="layout-container">
-    
+
+    <!-- HOBBIES -->
     <article class="hobbys">
       <dl class="hobbytitle">
-      <h1>Hobby's</h1>
+        <h1>Hobby's</h1>
       </dl>
       <p class="hobbylist">- Gamen</p>
       <p class="hobbylist">- Muziek maken/bewerken</p>
@@ -20,23 +21,25 @@
       <p class="hobbylist">- Online met mensen interacteren, vooral op <span class="discord">Discord</span></p>
     </article>
 
+    <!-- PROFIELKAART -->
     <article class="profile-card-example">
       <header class="profile-card-example-header">
-        <h2>Tom Zuidervaart</h2>
+        <h2 id="profile-name">Tom Zuidervaart</h2>
       </header>
 
-      <img src="assets/20250427_145611.jpg" alt="" width="800" height="800" class="profile-card-example-img">
+      <img id="profile-img" src="assets/20250427_145611.jpg" alt="" width="800" height="800" class="profile-card-example-img">
 
       <dl class="profile-card-example-dl">
-      <p class="desc"><br>Ik ben 19 jaar, en woon in Heemskerk</p>
+        <p id="profile-bio"><br>Ik ben 19 jaar, en woon in Heemskerk</p>
       </dl>
 
-      <p class="desc2">En dan nu een aantal kwaliteiten;<br><br>
+      <p id="profile-bio2" class="desc2">En dan nu een aantal kwaliteiten;<br><br>
         Ik kan goed samenwerken, ik ben rustig en een goeie doorzetter. <br><br>
         Mijn vooropleiding was SD/Software Developer (N4) op het Talland College.
       </p>
     </article>
 
+    <!-- GAME & CONSOLE -->
     <div class="game-container">
       <article class="gaming_header">
         <h2 class="game-header-text">Favoriete game</h2>
@@ -57,7 +60,7 @@
       <article class="console_header">
         <h2 class="console-header-text">Favoriete console</h2>
         <br>
-        <img src="assets/Switch2.png" alt="" width="250" height="200" value="PLAY" onclick="play('nsclick')">
+        <img src="assets/Switch2.png" alt="" width="250" height="200" onclick="play('nsclick')">
         <audio id="nsclick" src="./assets/snd/Nintendo_Switch_Click_Sound.mp3"></audio>
         <br>
         <img src="assets/NS2_text.png" alt="" width="200" height="200" class="NS2_text">
@@ -68,3 +71,4 @@
 
   <script src="scripts/script.js"></script>
 </body>
+</html>
